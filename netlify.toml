@@ -1,0 +1,17 @@
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
+[[edge_functions]]
+function = "edge-cache-control"
+path = "/*"
+
+[dev]
+command = "pnpm run dev"
+edge_functions = "netlify/edge-functions"
+functions = "netlify/functions"
+targetPort = 3000
+
+[build]
+command = "pnpm run build"
+edge_functions = "netlify/edge-functions"
+functions = "netlify/functions"

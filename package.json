@@ -1,0 +1,42 @@
+{
+  "name": "next-netlify-cache-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^6.3.1",
+    "@netlify/edge-functions": "^2.2.0",
+    "@netlify/functions": "^2.4.1",
+    "@netlify/ipx": "^1.4.6",
+    "@netlify/plugin-nextjs": "^4.41.3",
+    "@tanstack/react-query": "^4.36.1",
+    "@trpc/client": "^10.43.3",
+    "@trpc/next": "^10.43.3",
+    "@trpc/react-query": "^10.43.3",
+    "@trpc/server": "^10.43.3",
+    "follow-redirects": "^1.15.3",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "superjson": "^2.2.1",
+    "unsplash-js": "^7.0.19",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "eslint-plugin-perfectionist": "^2.5.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
