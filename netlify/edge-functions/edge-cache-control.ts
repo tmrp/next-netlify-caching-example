@@ -14,7 +14,7 @@ export default async function EdgeCacheControl(
 
   response.headers.set('Content-Type', 'text/html');
 
-  response.headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
+  response.headers.set('Cache-Control', 'public, max-age=31536000');
 
   response.headers.set(
     'Netlify-CDN-Cache-Control',
